@@ -29,31 +29,3 @@ footer svg, footer path{
 footer svg:hover path, footer path:hover{
     fill: var(--background);
 }
-
-/* footer .social{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer .social p a{
-    color: var(--highlight-font-color);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-footer .social p a:hover{
-    color: var(--highlight-font-color-hover);
-}
-
-footer .social div a{
-    margin: 0px 12.5px;   
-}
-
-footer .version{
-    text-align: right;
-    text-decoration: none;
-    color: var(--font-color);
-    cursor: pointer;
-} */
