@@ -1,0 +1,59 @@
+footer{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    background: var(--background-primary);
+    font-size: var(--lessreadble-font-size);
+    padding: 25px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+
+
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--background);
+}
+
+footer svg{
+    margin: 0px 12.5px;
+}
+
+footer svg, footer path{
+    cursor: pointer;
+}
+
+footer svg:hover path, footer path:hover{
+    fill: var(--background);
+}
+
+/* footer .social{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social p a{
+    color: var(--highlight-font-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer .social p a:hover{
+    color: var(--highlight-font-color-hover);
+}
+
+footer .social div a{
+    margin: 0px 12.5px;   
+}
+
+footer .version{
+    text-align: right;
+    text-decoration: none;
+    color: var(--font-color);
+    cursor: pointer;
+} */

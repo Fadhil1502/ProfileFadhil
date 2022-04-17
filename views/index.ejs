@@ -1,0 +1,46 @@
+<div class="headline">
+    <div>
+        <h5>HI THERE! MY NAME</h5>
+        <h1>SAID AHMAD FADHILAH</h1>
+        <h3>I'M A <span id="career"></span></h3>
+    </div>
+    <div class="image">
+        <img src="/images/photoCE.png" id="image">
+    </div>
+</div>
+<br>
+<div class="mode">
+    <input type="radio" name="mode" id="chemicalEngineer">
+    <label for="chemicalEngineer" id="lChemicalEngineer"><a href='/' class="modeOption">Chemical Engineer</a></label>
+    <input type="radio" name="mode" id="freelancer">
+    <label for="freelancer" id="lFreelancer"><a href='/?mode=freelancer' class="modeOption">Freelancer</a></label>
+</div>
+<br>
+<% if(mode == null){ %>
+    <%- include('./partials/chemicalEngineer.ejs') %>
+<% } %>
+<% if(mode == 'freelancer'){ %>
+    <%- include('./partials/freelancer.ejs') %>
+<% } %>
+<br>
+<div class="contact">
+    <h2>CONTACT ME</h2>
+    <form action="mailto:fadhil1704udiman@gmail.com?subject=Message form website" method="post" enctype="text/plain" autocomplete="off" target="_top">
+        <div style="display: flex; align-items: center; justify-content: center; width: 100%;">
+            <div style="display: flex; align-items: flex-start; justify-content: center; flex-direction: column; width: 50%;">
+                <label for="name">Your Name:</label>
+                <input name="Name" id="name" type="text" placeholder="Type your name here..." required>
+            </div>
+            <div style="display: flex; align-items: flex-start; justify-content: center; flex-direction: column; width: 50%;">
+                <label for="company">Your Company:</label>
+                <input name="Company" id="company" type="text" placeholder="Type your company here... (if you're from a company)">
+            </div>
+        </div>
+        <label for="email">Your Email:</label>
+        <input name="Email" id="email" type="email" placeholder="Type your email here..." required autocomplete="email">
+        <label for="message">Your Message:</label>
+        <textarea name="Message" id="message" placeholder="Type your message here..." required></textarea>
+        <br>
+        <button type="submit" class="button button-cta">Send</button>
+    </form>
+</div>

@@ -1,0 +1,16 @@
+:root{
+    --HS: 170, 75%;
+    --main-title-font-size: 64px;
+    --title-font-size: 36px;
+    --font-size: 24px;
+    --lessreadble-font-size: 18px;
+    --highlight-font-color: hsl(var(--HS), 50%);
+    --highlight-font-color-hover: hsl(var(--HS), 70%);
+    --font-color: hsl(var(--HS), 5%);
+    --cta-button: hsl(var(--HS), 50%);
+    --cta-button-hover: hsl(var(--HS), 70%);
+    --ncta-button: none;
+    --button-hover: hsl(var(--HS), 70%);
+    --background: hsl(var(--HS), 90%);
+    --background-primary: hsl(var(--HS), 50%);
+}
